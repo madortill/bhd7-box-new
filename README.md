@@ -11,15 +11,16 @@ npm install
 npm run dev
 
 # upload to github - run all the commands in the terminal (` + ctrl)
-1. change vite.config.js - replace <REPO_NAME> with the name of the repository in github
-2. npm run build
-3. git add dist -f
-4. git commit -m 'adding dist subtree'
+1. create new repository in github with all the files (node_modules can be ignored)
+2. change vite.config.js - replace <REPO_NAME> with the name of the repository in github
+3. ***in the terminal***  npm run build
+4. ***in the terminal***  git add dist -f
+5. ***in the terminal***  git commit -m 'adding dist subtree'
 ##### make sure you are in the master branch and that the dist folder is not in .gitignore
 *** -m means message (documentation: https://git-scm.com/docs/git-commit) ***
-5. git subtree push --prefix dist origin gh-pages
+6. ***in the terminal***  git subtree push --prefix dist origin gh-pages
 
-6. **IN GITHUB** set gitHub Pages to the branch "gh-pages" instead of "master" when creating a link.
+7. **IN GITHUB** set gitHub Pages to the branch "gh-pages" instead of "master" when creating a link.
 
 
 
