@@ -1,5 +1,5 @@
 # Boilerplate
-This template should help get you started developing with Vue 2 in Vite.
+This template should help get you started developing with Vue 2 in Vite.  
 It is a boilerplate create by the command "npm init@vue2".
 
 * note: # are for style and have no meaning.
@@ -13,7 +13,7 @@ npm run dev
 # upload to github - run all the commands in the terminal (` + ctrl)
 1. change vite.config.js - replace <REPO_NAME> with the name of the repository in github
 2. npm run build
-3. git add dist
+3. git add dist -f
 4. git commit -m 'adding dist subtree'
 ##### make sure you are in the master branch and that the dist folder is not in .gitignore
 *** -m means message (documentation: https://git-scm.com/docs/git-commit) ***
