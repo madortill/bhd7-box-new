@@ -1,5 +1,5 @@
 # Boilerplate
-This template should help get you started developing with Vue 2 in Vite.
+This template should help get you started developing with Vue 2 in Vite.  
 It is a boilerplate create by the command "npm init@vue2".
 
 * note: # are for style and have no meaning.
