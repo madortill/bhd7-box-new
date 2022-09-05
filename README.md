@@ -11,7 +11,7 @@ npm install
 npm run dev
 
 # upload to github - run all the commands in the terminal (` + ctrl)
-1.  change vue.config.js - replace REPO_NAME with the name of the repository in github
+1. change vite.config.js - replace <REPO_NAME> with the name of the repository in github
 2. npm run build
 3. git add dist
 4. git commit -m 'adding dist subtree'
