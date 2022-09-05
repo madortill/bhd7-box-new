@@ -13,7 +13,7 @@ npm run dev
 # upload to github - run all the commands in the terminal (` + ctrl)
 1.  change vue.config.js - replace REPO_NAME with the name of the repository in github
 2. npm run build
-3. git add dist
+3. git add dist -f
 4. git commit -m 'adding dist subtree'
 ##### make sure you are in the master branch and that the dist folder is not in .gitignore
 *** -m means message (documentation: https://git-scm.com/docs/git-commit) ***
