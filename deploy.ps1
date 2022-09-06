@@ -1,5 +1,4 @@
-# $ErrorActionPreference = "Stop"
-set -e
+$ErrorActionPreference = "Stop"
 git init
 git checkout master
 git add -A
