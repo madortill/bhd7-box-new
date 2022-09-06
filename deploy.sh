@@ -1,8 +1,9 @@
-$ErrorActionPreference = "Stop"
+# $ErrorActionPreference = "Stop"
 set -e
 git init
 git add -A
 git commit -m=`ENTER COMMIT HERE`
+git push
 npm i
 npm run build
 git add dist -f
