@@ -19,6 +19,6 @@ export default defineConfig({
     }
   },
   // base: "/<REPO_NAME>/",
-  base: "/vue2-boilerplate/",
+  base: "/<REPO_NANE>/",
 
 })

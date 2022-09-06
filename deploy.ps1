@@ -14,3 +14,4 @@ git commit -m 'adding dist subtree'
 git subtree push --prefix dist origin gh-pages
 write-host ""
 write-host "deployed to github"
+write-host ""
