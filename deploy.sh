@@ -2,7 +2,7 @@
 set -e
 git init
 git add -A
-git commit -m=`ENTER COMMIT HERE`
+git commit -m=`enter commit here`
 git push
 npm i
 npm run build

@@ -18,5 +18,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: "/<REPO_NAME>/",
+  // base: "/<REPO_NAME>/",
+  base: "/vue2-boilerplate/",
+
 })
