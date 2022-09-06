@@ -1,8 +1,9 @@
 # $ErrorActionPreference = "Stop"
 set -e
 git init
+git checkout master
 git add -A
-git commit -m=`enter commit here`
+git commit -m 'deploy'
 git push
 npm i
 npm run build
