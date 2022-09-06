@@ -12,4 +12,5 @@ git add dist -f
 git commit -m 'adding dist subtree' 
 #The prefix option specifies the folder that we want for our the subtree. 
 git subtree push --prefix dist origin gh-pages
+write-host ""
 write-host "deployed to github"
