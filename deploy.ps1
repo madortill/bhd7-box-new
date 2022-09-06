@@ -1,4 +1,4 @@
-Param ($commitMessage = $(Write-Output "hi"))
+Param ($commitMessage = $(throw "commit message parameter is required."))
 $ErrorActionPreference = "Stop"
 git init
 git checkout master

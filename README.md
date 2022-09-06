@@ -10,7 +10,7 @@ npm install
 ### run for development purposes
 npm run dev
 
-# upload to github - run all the commands in the terminal (` + ctrl)
+# upload to github - windows OS
 1. change vite.config.js - replace <REPO_NAME> with the name of the repository in github (the name of the root directory)
 2. **In the terminal, run** ./deploy "COMMIT_MESSAGE"
 3. **IN GITHUB** set gitHub Pages to the branch "gh-pages" instead of "master" when creating a link.
